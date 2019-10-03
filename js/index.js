@@ -17,6 +17,7 @@ var losses = 0;
 $('#roll-dice').on('click', rollTheDice)
 
 
+
 function rollTheDice() {
   //is going to use getRandomNumberfor both die
   dieA = getRandomNumber();
@@ -75,11 +76,19 @@ function sumOfRolls (){
 }
 
 //Bet box
-$("input[data-type='currency']").on({
-    keyup: function() {
-      formatCurrency($(this));
-    },
-    blur: function() {
-      formatCurrency($(this), "blur");
-    }
-});
+function myFunction() {
+  var x = document.getElementById("Bet");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+$( "input" )
+  .keyup(function() {
+    var value = $( this ).val();
+    $( "p" ).text( value );
+  })
+  .keyup();
