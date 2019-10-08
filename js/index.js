@@ -69,11 +69,6 @@ function checkIfRollIsWinner(dieA, dieB){
 
 
 
-function sumOfRolls (){
-  //add together what is rolled on each turn
-  return sum(dieA + dieB)
-  console.log(sumOfRolls)
-}
 
 //Bet box
 function myFunction() {

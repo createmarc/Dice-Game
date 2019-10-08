@@ -94,6 +94,7 @@ span {
 /* ADDITIONAL STYLES
 /*******************************************/
 
-#add-die{
 
+#dice-{
+  border-radius: 25px;
 }
