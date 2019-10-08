@@ -74,27 +74,58 @@ span {
 
 .dice-1 {
   background-image: url('../img/1.png');
+  border-radius: 25px;
 }
 .dice-2 {
   background-image: url('../img/2.png');
+  border-radius: 25px;
 }
 .dice-3 {
   background-image: url('../img/3.png');
+  border-radius: 25px;
 }
 .dice-4 {
   background-image: url('../img/4.png');
+  border-radius: 25px;
 }
 .dice-5 {
   background-image: url('../img/5.png');
+  border-radius: 25px;
 }
 .dice-6 {
   background-image: url('../img/6.png');
+  border-radius: 25px;
 }
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
 
-#dice-{
-  border-radius: 25px;
+img {
+  border-radius: 50%;
+}
+
+h2{
+  font-family: tahoma;
+  font-weight: bolder;
+  color: #ffff;
+  font-size: 100px;
+}
+
+#money{
+     font-size:18pt;
+     height:420px;
+     width:200px;
+
+}
+#poker{
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+ height: auto;
+}
+
+#label{
+  color: #ffff;
 }
